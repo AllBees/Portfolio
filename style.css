@@ -1,0 +1,139 @@
+body{
+    background-color: #958686;
+    margin: 0px;
+    text-align: center;
+    font-family: "Segoe UI", Arial, Helvetica, sans-serif;
+    overflow-x: hidden;
+}
+
+header{
+    width: 100vw;
+    height: 200px;
+    background-color: #575757;
+}
+
+h1{
+    margin: 0px;
+}
+
+#navbar{
+    position: sticky;
+    top: 0px;
+    width: 100vw;
+    height: 50px;
+    background-color: white;
+    border-bottom: solid #707070 1px;
+}
+
+#navbar a{
+    display: inline-block;
+    background-color: white;
+    padding-top: 13px;
+    width: 140px;
+    height: 37px;
+    color: #707070;
+    text-decoration: none;
+}
+
+#navbar a:hover{
+    background-color: #EEEEEE;
+}
+
+main{
+    width: 100vw;
+    background-color: #FCF5E2;
+    padding-top: 40px;
+    padding-bottom: 50px;
+}
+
+#pfpic{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: solid #707070 1px;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 0px auto 20px;
+}
+
+.container{
+    padding-bottom: 75px;
+}
+
+h2{
+    color:#707070;
+    font-size: 30px;
+    font-weight: normal;
+    letter-spacing: 4px;
+    width: 400px;
+    padding-top: 75px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.lined-h2{
+    border-top: solid #707070 1px;
+}
+
+p{
+    color: #707070;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.pic-container{
+    display: inline-block;
+}
+
+.picture{
+    display: inline-block;
+    width: 300px;
+    height: 300px;
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: #EEEEEE;
+    border: dashed white 3px;
+}
+
+.pic-desc{
+    margin: 0px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+footer{
+    background-color: white;
+    border-top: solid #707070 1px;
+    height: 100px;
+}
+
+.footer-pic{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    margin: 10px 5px 0px;
+    border-radius: 50%;
+    background-color: #EEEEEE;
+}
+
+footer p{
+    margin-top: 2px;
+    font-weight: bold;
+}
+
+@media screen and (min-width: 1000px){
+    header, main, #navbar, #footer{
+        width: 1000px;
+        margin-left: auto;
+        margin-right: auto;
+        border-left: solid white 2px;
+        border-right: solid white 2px;
+    }
+}
+
+@media screen and (max-width: 575px){
+    #navbar a{
+        width: 90px;
+    }
+}
